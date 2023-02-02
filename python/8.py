@@ -14,17 +14,17 @@ mark4=float(input("Enter Your Social Science Mark:"))
 total=mark1+mark2+mark3+mark4
 percentage=(total/400)*100
 
-if(mark1<40 and mark2<40 and mark3<40 and mark4<40):
+if((mark1<40) and (mark2<40) and (mark3<40) and (mark4<40)):
     print("Student is Fail.")
     
-elif(mark1<=40 and mark1>=60 and mark2<=40 and mark2>=60 and mark3<=40 and mark3>=60 and mark4<=40 and mark4>=60):
+elif((mark1<=40 and mark1>=60) and (mark2<=40 and mark2>=60) and (mark3<=40 and mark3>=60) and (mark4<=40 and mark4>=60)):
     print("Student is Pass")
     print("Student Get C")
-elif(mark1<=40 and mark1>=80 and mark2<=40 and mark2>=80 and mark3<=40 and mark3>=80 and mark4<=40 and mark4>=80):
+elif((mark1<=40 and mark1>=80) and (mark2<=40 and mark2>=80) and (mark3<=40 and mark3>=80) and (mark4<=40 and mark4>=80)):
     print("Student is pass")
     print("Student Get B")
     
-elif(mark1<=40 and mark1>=100 and mark2<=40 and mark2>=100 and mark3<=40 and mark3>=100 and mark4<=40 and mark4>=100):
+elif((mark1<=40 and mark1>=100) and (mark2<=40 and mark2>=100) and (mark3<=40 and mark3>=100) and (mark4<=40 and mark4>=100)):
     print("Student is pass")
     print("Student Get A")
     
