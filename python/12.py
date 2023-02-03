@@ -5,18 +5,13 @@
 num=int(input("Enter Number:"))
 ch=-0
 
-if(num==1):
-    print("Not Prime Number")
-    
-else:
-    for i in range(1,num):
+if(num>1):
+    for i in range(2,num):
         if(num%i==0):
             ch=1
-            
-        else:
-            ch=2
+        break
 
 if(ch==1):
-    print("Number is Prime",+num)
-else:
     print("Number is Not Prime",+num)
+else:
+    print("Number is Prime",+num)
